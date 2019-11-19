@@ -10,6 +10,6 @@ export class DataService {
 
   getdata()
   {
-    return this.http.get("http://localhost:4000/student");
+    return this.http.get("http://localhost:4987/student");
   }
 }
